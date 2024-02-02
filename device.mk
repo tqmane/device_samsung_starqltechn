@@ -73,9 +73,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.samsung-libperfmgr \
     android.hardware.power@1.2.vendor
 
-PRODUCT_PACKAGES += \
-    power.qcom
-
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \
@@ -109,8 +106,11 @@ PRODUCT_PACKAGES += \
     init.starqltedcm.rc \
     init.target.rc \
     init.rc \
-    init.recovery.qcom.rc \
     ueventd.rc \
+
+# Recovery
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.recovery.qcom.rc:root/init.recovery.qcom.rc
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \

@@ -103,7 +103,7 @@ VENDOR_SECURITY_PATCH := 2025-01-01
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)vintf/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Inherit the proprietary files
