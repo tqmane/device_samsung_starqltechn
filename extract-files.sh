@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=starqltedcm
+DEVICE=SC-02K
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks

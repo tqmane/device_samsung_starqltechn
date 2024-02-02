@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),starqltedcm, starqltechn)
+ifeq ($(TARGET_DEVICE),starqltedcm, starqltechn, SC-02K)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

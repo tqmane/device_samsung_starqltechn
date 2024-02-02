@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_starqltedcm.mk
+    $(LOCAL_DIR)/lineage_SC-02K.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_starqltedcm-user \
-    lineage_starqltedcm-userdebug \
-    lineage_starqltedcm-eng
+    lineage_SC-02K-user \
+    lineage_SC-02K-userdebug \
+    lineage_SC-02K-eng

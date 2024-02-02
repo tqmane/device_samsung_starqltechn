@@ -128,4 +128,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/samsung/starqltedcm/starqltedcm-vendor.mk)
+$(call inherit-product, vendor/samsung/sdm845-common/sdm845-common-vendor.mk)

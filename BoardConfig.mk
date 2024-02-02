@@ -109,4 +109,4 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Inherit the proprietary files
-include vendor/samsung/starqltedcm/BoardConfigVendor.mk
+include vendor/samsung/sdm845-common/BoardConfigVendor.mk
