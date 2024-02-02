@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
 
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_SCREEN_HEIGHT := 2960
+TARGET_SCREEN_WIDTH := 1440
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -72,6 +74,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.samsung-libperfmgr \
     android.hardware.power@1.2.vendor
+
+PRODUCT_PACKAGES += \
+    power.qcom
 
 # Rootdir
 PRODUCT_PACKAGES += \
